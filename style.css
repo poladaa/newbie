@@ -1,0 +1,89 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Chakra Petch';
+  background-color: hsl(0, 0%, 95%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.container {
+  max-width: 90rem;
+  margin: 0 auto;
+}
+
+.cars {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  border-radius: 11px;
+  margin: 2rem; 
+  overflow: hidden;
+}
+
+.main {
+  padding: 4rem;
+}
+
+.main1 {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.main2 {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.main3 {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.header {
+  color: #fff;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.text1 {
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 1.6;
+}
+
+.main a {
+  text-decoration: none;
+  background-color: hsl(0, 0%, 95%);
+  padding: 1.1rem 2.7rem;
+  border-radius: 2.6rem;
+  border: 2px solid hsl(0, 0%, 95%);
+  margin-top: 6rem;
+  display: inline-block;
+  transition: all 0.5s;
+}
+
+.main a:hover {
+  color: hsl(0, 0%, 95%);
+  background: transparent;
+}
+
+
+.main1 a {
+  color: hsl(31, 77%, 52%);
+}
+
+.main2 a {
+  color: hsl(184, 100%, 22%);
+}
+
+.main3 a {
+  color: hsl(179, 100%, 13%);
+}
+
+
